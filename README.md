@@ -2,7 +2,6 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-2.0%2B-green)](https://flask.palletsprojects.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A RESTful Flask API that fetches country data (name, capital, region, population, flag, currencies) from the [REST Countries API](https://restcountries.com/), exchange rates from [ExchangeRate-API](https://open.er-api.com/), and estimates GDP based on population and random per-capita income adjusted for exchange rates. Data is persisted in a MySQL database. Supports filtering, sorting, CRUD operations on countries, and generates a summary image (total countries, top 5 by estimated GDP, timestamp) on refresh.
 
